@@ -205,7 +205,9 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return nombre + '' + apellido;
+  //return nombre + '' + apellido;
+  var combinado = nombre + ' ' + apellido;
+  return combinado;
   //combinarNombres('Alejandro', 'Lamela') -->cuando invoquemos a la funcion nos va a devolver los dos str separados por un espacio
 }
 
@@ -245,7 +247,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro * 1,2;
+  return euro * 1.2
 }
 
 
